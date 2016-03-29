@@ -53,9 +53,9 @@ public class NativeSettings extends CordovaPlugin {
             this.cordova.getActivity().startActivity(new Intent(android.provider.Settings.ACTION_BLUETOOTH_SETTINGS));
         } else if (action.equals("captioning")) {
             this.cordova.getActivity().startActivity(new Intent(android.provider.Settings.ACTION_CAPTIONING_SETTINGS));
-        } else if (action.equals("cast")) {
+        } /* else if (action.equals("cast")) {
             this.cordova.getActivity().startActivity(new Intent(android.provider.Settings.ACTION_CAST_SETTINGS));
-        } else if (action.equals("data_roaming")) {
+        } */ else if (action.equals("data_roaming")) {
             this.cordova.getActivity().startActivity(new Intent(android.provider.Settings.ACTION_DATA_ROAMING_SETTINGS));
         } else if (action.equals("date")) {
             this.cordova.getActivity().startActivity(new Intent(android.provider.Settings.ACTION_DATE_SETTINGS));
@@ -65,9 +65,9 @@ public class NativeSettings extends CordovaPlugin {
             this.cordova.getActivity().startActivity(new Intent(android.provider.Settings.ACTION_DISPLAY_SETTINGS));
         } else if (action.equals("dream")) {
             this.cordova.getActivity().startActivity(new Intent(android.provider.Settings.ACTION_DREAM_SETTINGS));
-        } else if (action.equals("home")) {
+        } /* else if (action.equals("home")) {
             this.cordova.getActivity().startActivity(new Intent(android.provider.Settings.ACTION_HOME_SETTINGS));
-        } else if (action.equals("input_method")) {
+        } */ else if (action.equals("input_method")) {
             this.cordova.getActivity().startActivity(new Intent(android.provider.Settings.ACTION_INPUT_METHOD_SETTINGS));
         } else if (action.equals("input_method_subtype")) {
             this.cordova.getActivity().startActivity(new Intent(android.provider.Settings.ACTION_INPUT_METHOD_SUBTYPE_SETTINGS));
@@ -107,19 +107,19 @@ public class NativeSettings extends CordovaPlugin {
             this.cordova.getActivity().startActivity(new Intent(android.provider.Settings.ACTION_SECURITY_SETTINGS));
         } else if (action.equals("settings")) {
             this.cordova.getActivity().startActivity(new Intent(android.provider.Settings.ACTION_SETTINGS));
-        } else if (action.equals("show_regulatory_info")) {
+        } /* else if (action.equals("show_regulatory_info")) {
             this.cordova.getActivity().startActivity(new Intent(android.provider.Settings.ACTION_SHOW_REGULATORY_INFO));
-        } else if (action.equals("sound")) {
+        } */ else if (action.equals("sound")) {
             this.cordova.getActivity().startActivity(new Intent(android.provider.Settings.ACTION_SOUND_SETTINGS));
         } else if (action.equals("sync")) {
             this.cordova.getActivity().startActivity(new Intent(android.provider.Settings.ACTION_SYNC_SETTINGS));
-        } else if (action.equals("usage_access")) {
+        } /* else if (action.equals("usage_access")) {
             this.cordova.getActivity().startActivity(new Intent(android.provider.Settings.ACTION_USAGE_ACCESS_SETTINGS));
-        } else if (action.equals("user_dictionary")) {
+        } */ else if (action.equals("user_dictionary")) {
             this.cordova.getActivity().startActivity(new Intent(android.provider.Settings.ACTION_USER_DICTIONARY_SETTINGS));
-        } else if (action.equals("voice_input")) {
+        }/* else if (action.equals("voice_input")) {
             this.cordova.getActivity().startActivity(new Intent(android.provider.Settings.ACTION_VOICE_INPUT_SETTINGS));
-        } else if (action.equals("wifi_ip")) {
+        }*/ else if (action.equals("wifi_ip")) {
             this.cordova.getActivity().startActivity(new Intent(android.provider.Settings.ACTION_WIFI_IP_SETTINGS));
         } else if (action.equals("wifi")) {
             this.cordova.getActivity().startActivity(new Intent(android.provider.Settings.ACTION_WIFI_SETTINGS));
